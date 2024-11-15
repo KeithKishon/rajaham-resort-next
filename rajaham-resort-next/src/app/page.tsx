@@ -1,7 +1,5 @@
+import { HeroSlider } from "@/components/heroSlider/HeroSlider";
+
 export default function Home() {
-  return (
-    <div>
-      <span>hellow world</span>
-    </div>
-  );
+  return <HeroSlider />;
 }
